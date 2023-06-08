@@ -1,0 +1,14 @@
+    
+<div class="container">
+
+    <div class="detail__product">
+        <a [routerLink]="['/productos']"  >Regresar</a>
+        <h3>Detalle del producto</h3>
+        <ul>
+            <li> <b>Nombre:</b> {{producto.nombre}}</li>
+            <li> <b>Descripcion:</b> {{producto.descripcion}}</li>
+            <li> <b>precio:</b> {{producto.precio}}</li>
+        </ul>
+    </div>
+    <img class="imagen_detail" [src]="producto.imagen" alt="">
+</div>
